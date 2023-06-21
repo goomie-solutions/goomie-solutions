@@ -22,7 +22,7 @@ Technologies used:
 
 First, clone the repo:
 
-`git clone https://github.com/gustavops02/personal-finances.git` <br>and visit <br>`localhost:5500/view/index.html`
+`git clone https://github.com/gustavops02/goomie-solutions.git` <br>and visit <br>`localhost:5500/view/index.html`
 
 We are running the program using LIveServer VSCode Extension. But you could run this one open the index.html file normally.
 
