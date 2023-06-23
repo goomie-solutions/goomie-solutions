@@ -1,0 +1,60 @@
+:root {
+    --navbar-bg-color: #111;
+    --color-brand: #ff5722;
+}
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+.navbar-container-cst {
+    background-color: var(--navbar-bg-color) !important;
+    height: 101.7px !important;
+}
+
+.spaces-cst {
+    margin-left: 41.1px !important;
+}
+
+.logo-position {
+    height: 163px;
+    position: relative;
+    bottom: -16px;
+}
+
+.brand-text {
+    position: relative;
+    bottom: -32px;
+    right: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 55px;
+    border-right: 1px solid #d4d4d4;
+    padding-right: 62px !important;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    display: flex !important;
+    align-items: center;
+    padding-left: 82px !important;
+    font-weight: bold;
+}
+
+.btn-login {
+    background: rgb(248,99,52);
+    background: -moz-linear-gradient(90deg, rgba(248,99,52,1) 0%, rgba(255,62,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(248,99,52,1) 0%, rgba(255,62,0,1) 100%);
+    background: linear-gradient(90deg, rgba(248,99,52,1) 0%, rgba(255,62,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f86334",endColorstr="#ff3e00",GradientType=1);    width: 228.3px;
+    height: 101.7px;
+    line-height: 95px;
+    font-size: 1.2em;
+}
+
+
+.material-symbols-outlined {
+    position: absolute;
+    top: 12px;
+    padding: 12px !important;
+    font-size: 50px !important;
+}
