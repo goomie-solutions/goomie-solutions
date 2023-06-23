@@ -2,11 +2,13 @@
     --navbar-bg-color: #111;
     --color-brand: #ff5722;
 }
+
 * {
     margin: 0 !important;
     padding: 0 !important;
-    
+    font-family: 'Helve';
 }
+
 .navbar-container-cst {
     background-color: var(--navbar-bg-color) !important;
     height: 101.7px !important;
@@ -23,38 +25,49 @@
 }
 
 .brand-text {
+    font-weight: bold;
+    letter-spacing: -2px;
     position: relative;
     bottom: -32px;
     right: 10px;
-    font-family: 'League Spartan', sans-serif;
     font-size: 55px;
-    border-right: 1px solid #d4d4d4;
-    padding-right: 62px !important;
+    padding-right: 50px !important;
+    font-family: 'League spartan', 'sans-serif';
+}
+
+#vert-line {
+    height: 100px !important;
+    border-right: 1px solid #747474;
+    position: relative;
+    bottom: -13px;
 }
 
 .nav-item {
     font-size: 1.2em;
-    display: flex !important;
-    align-items: center;
     padding-left: 82px !important;
-    font-weight: bold;
 }
 
 .btn-login {
-    background: rgb(248,99,52);
-    background: -moz-linear-gradient(90deg, rgba(248,99,52,1) 0%, rgba(255,62,0,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(248,99,52,1) 0%, rgba(255,62,0,1) 100%);
-    background: linear-gradient(90deg, rgba(248,99,52,1) 0%, rgba(255,62,0,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f86334",endColorstr="#ff3e00",GradientType=1);    width: 228.3px;
+    background: rgb(248, 99, 52);
+    background: linear-gradient(90deg, rgba(248, 99, 52, 1) 0%, rgba(255, 62, 0, 1) 100%);
     height: 101.7px;
-    line-height: 95px;
+    width: 228.3px;
     font-size: 1.2em;
+    border-radius: 0;
 }
 
-
+.sign-in-text-link {
+    margin-right: 30px !important;
+}
 .material-symbols-outlined {
     position: absolute;
-    top: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25px;
     padding: 12px !important;
     font-size: 50px !important;
+}
+
+.section-image {
+    height: 600px;
 }
