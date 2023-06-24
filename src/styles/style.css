@@ -131,6 +131,9 @@
     margin-left: 80px !important;
     margin-bottom: 13px !important;
 }
+.mission-description p::first-letter {
+    color: var(--color-brand);
+}
 
 .adjust-size {
     max-width: 92% !important;
