@@ -111,7 +111,7 @@
     margin-bottom: 60px !important;
 }
 
-.card-group {
+.container-card-group {
     display: flex;
     flex-direction: column;
     margin-left: 100px !important;
