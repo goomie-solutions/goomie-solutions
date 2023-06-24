@@ -66,9 +66,7 @@
     border-radius: 0;
 }
 
-.sign-in-text-link {
-    margin-right: 30px !important;
-}
+.sign-in-text-link { margin-right: 30px !important; }
 
 .material-symbols-outlined {
     position: absolute;
@@ -79,26 +77,18 @@
     font-size: 50px !important;
 }
 
-.section-image {
-    height: 700px;
-}
+.section-image { height: 700px; }
 
 .title {
     font-size: 50px !important;
     font-family: 'Helvetica-bold';
 }
 
-.descriptions-system {
-    margin-left: 75.1px !important;
-}
+.descriptions-system { margin-left: 75.1px !important;}
 
-.text-adjectives {
-    margin-top: 120px !important;
-}
+.text-adjectives { margin-top: 120px !important; }
 
-.interactive-brand {
-    color: var(--color-brand);
-}
+.interactive-brand { color: var(--color-brand); }
 
 .check-more-btn {
     border-radius: 10px !important;
@@ -110,4 +100,38 @@
 .btn:hover {
     color: white;
     background-color: #000;
+}
+
+#img-sec-section {
+    height: 600px;
+}
+
+.mission-title {
+    margin-left: 100px !important;
+    margin-bottom: 60px !important;
+}
+
+.card-group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px !important;
+}
+
+.card-btn {
+    min-width: 70px !important;
+    min-height: 70px !important;
+    background-color: var(--navbar-bg-color);
+    color: var(--color-brand);
+    border-radius: 14px;
+    font-family: 'League spartan';
+    margin-bottom:20px !important;
+}
+
+.mission-description {
+    margin-left: 80px !important;
+    margin-bottom: 13px !important;
+}
+
+.adjust-size {
+    max-width: 92% !important;
 }
