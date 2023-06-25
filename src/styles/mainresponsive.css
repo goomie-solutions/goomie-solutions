@@ -1,0 +1,21 @@
+:root {
+    --navbar-bg-color: #111;
+    --color-brand: #ff5722;
+}
+
+@media only screen and (max-width: 1062px) {
+    .section-image {
+        height: 600px;
+    }
+
+
+}
+
+@media only screen and (max-width: 992px) {
+      
+    .custom-navbar-toggler .navbar-toggler-icon {
+        background-image: url("../resources/burger-menu.svg"); /* Replace with the path to your custom icon */
+        /* Add any additional styles as needed */
+      }
+      
+}
