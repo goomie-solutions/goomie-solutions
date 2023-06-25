@@ -11,11 +11,101 @@
 
 }
 
-@media only screen and (max-width: 992px) {
-      
-    .custom-navbar-toggler .navbar-toggler-icon {
-        background-image: url("../resources/burger-menu.svg"); /* Replace with the path to your custom icon */
-        /* Add any additional styles as needed */
-      }
-      
+@media only screen and (max-width: 991.09px) {
+
+    .custom-navbar-toggler {
+        background-image: url("../resources/burger-menu.svg");
+        background-size: 1.7em;
+    }
+
+    .brand-text {
+        bottom: -2px;
+        color: #fff;
+    }
+
+    .logo-position {
+        bottom: 15px;
+    }
+
+    #vert-line {
+        top: -2px;
+    }
+
+    .spaces-cst {
+        display: flex !important;
+    }
+
+    .navbar-toggler-icon {
+        position: relative;
+        top: -30px;
+        margin-right: 20px !important;
+    }
+
+    .nav-item {
+        padding-left: 0px !important;
+    }
+
+
+    .navbar-toggler {
+        position: relative;
+    }
+
+    .material-symbols-outlined {
+        display: none !important;
+    }
+
+
+    .btn-login {
+        font-size: 1em;
+        background: none;
+        height: fit-content;
+        width: fit-content;
+
+    }
+
+    .btn-login:hover {
+        background-color: var(--color-brand) !important;
+    }
+
+    .btn-login:active {
+        border-color: #ff5722 !important;
+        outline: none !important;
+    }
+
+    .text-light,
+    .sign-in-text-link {
+        color: black !important;
+        margin: 0px !important;
+    }
+
+    .sign-in-text-link:hover {
+        background: none !important;
+    }
+    .sign-in-text-link {
+        border-top: 1px solid var(--navbar-bg-color);
+    }
+    .navbar-collapse {
+        background-color: var(--color-brand);
+        position: absolute;
+        border-radius: 20px;
+        right: 15px;
+        top: 102px;
+        display: flex;
+        transition: none !important;
+    }
+    .custom-navbar-collapse {
+        width: 202px;
+        height: 102px;
+    }
+    #navbarSupportedContent {
+        
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 60px !important;
+        margin-top: 3px !important;
+    }
+    .check-more-btn {
+        color: #fff !important;
+    }
 }
