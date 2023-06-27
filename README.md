@@ -24,12 +24,12 @@ First, clone the repo:
 
 `git clone https://github.com/gustavops02/goomie-solutions.git` <br>and visit <br>`localhost:5500/view/index.html`
 
-We are running the program using LIveServer VSCode Extension. But you could run this one open the index.html file normally.
+We are running the program using LiveServer VSCode Extension. But you could run this one open the index.html file normally.
 
 
 ## Pull Requests and issues
 
-We welcome contributions and feedbacks on our website. Please file a request in our issue module or create a pull request. For simple changes (like some wrong text contents), it's easiest to make changes using the GitHub UI.
+Feel free to contribute and share feedbacks on our website. Please file a request in our issue module or create a pull request. 
 
 If you have an import issue, please give us our feedback. It is gonna be so important for us!
 
