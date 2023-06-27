@@ -11,6 +11,53 @@
 
 }
 
+@media only screen and (max-width: 1010.29px) {
+    .title {
+        font-size: 2.5em !important;
+    }
+
+    .mission-title {
+        text-align: center !important;
+    }
+
+    #img-sec-section {
+        height: 300px !important;
+    }
+
+    .mission-description {
+        margin-left: 30px !important;
+
+    }
+}
+
+@media only screen and (max-width: 989.26px) {
+
+    .section-image {
+        height: 500px;
+    }
+
+    .title {
+        font-size: 2em !important;
+    }
+
+    .text-adjectives {
+        margin-top: 60px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .check-more-btn {
+        margin-bottom: 100px !important;
+    }
+
+    #img-sec-section {
+        display: none !important;
+    }
+
+    .adjust-size {
+        max-width: 88% !important;
+    }
+}
+
 @media only screen and (max-width: 991.09px) {
 
     .custom-navbar-toggler {
@@ -81,9 +128,11 @@
     .sign-in-text-link:hover {
         background: none !important;
     }
+
     .sign-in-text-link {
         border-top: 1px solid var(--navbar-bg-color);
     }
+
     .navbar-collapse {
         background-color: var(--color-brand);
         position: absolute;
@@ -93,6 +142,7 @@
         display: flex;
         transition: none !important;
     }
+
     .custom-navbar-collapse {
         width: 202px;
         height: 102px;
@@ -102,6 +152,7 @@
         margin-right: 60px !important;
         margin-top: 3px !important;
     }
+
     .check-more-btn {
         color: #fff !important;
     }
