@@ -1,0 +1,28 @@
+:root {
+    --navbar-bg-color: #111;
+    --color-brand: #ff5722;
+}
+
+@media only screen and (max-width: 660.11px) {
+    .section-image {
+        height: 290px;
+        position: absolute;
+        right: -50px;
+        top: 230px;
+    }
+    .custom-section-container {
+        text-align: start !important;
+        display: inline-block !important;
+    }
+    .text-adjectives , .interactive-brand {
+        font-size: 30px !important;
+    }
+    #resp-title-mobile {
+        font-size: 3em !important;
+    }   
+
+    .check-more-btn {
+        font-size: 19px !important;
+    }
+
+}
