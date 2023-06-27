@@ -11,7 +11,7 @@
 
 }
 
-@media only screen and (max-width: 1010.29px) {
+@media only screen and (max-width: 1100.29px) {
     .title {
         font-size: 2.5em !important;
     }
@@ -131,6 +131,8 @@
 
     .sign-in-text-link {
         border-top: 1px solid var(--navbar-bg-color);
+        margin-top: 6px !important;
+        padding: 6px !important;
     }
 
     .navbar-collapse {
@@ -155,5 +157,15 @@
 
     .check-more-btn {
         color: #fff !important;
+    }
+}
+
+@media only screen and (max-width: 808px) {
+    .custom-section-container {
+        margin-top: 68px !important;
+    }
+
+    .section-image {
+        height: 350px;
     }
 }

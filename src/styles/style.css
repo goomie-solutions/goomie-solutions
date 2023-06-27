@@ -135,6 +135,8 @@
     color: var(--color-brand);
 }
 
-.adjust-size {
-    max-width: 92% !important;
+#custom-second-section-container {
+    display: inline-block !important;
+    margin: auto !important;
+    padding-right: 12px !important;
 }
