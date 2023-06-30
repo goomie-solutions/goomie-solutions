@@ -30,34 +30,6 @@
     }
 }
 
-@media only screen and (max-width: 989.26px) {
-
-    .section-image {
-        height: 500px;
-    }
-
-    .title {
-        font-size: 2em !important;
-    }
-
-    .text-adjectives {
-        margin-top: 60px !important;
-        margin-bottom: 40px !important;
-    }
-
-    .check-more-btn {
-        margin-bottom: 100px !important;
-    }
-
-    #img-sec-section {
-        display: none !important;
-    }
-
-    .adjust-size {
-        max-width: 88% !important;
-    }
-}
-
 @media only screen and (max-width: 991.09px) {
 
     .custom-navbar-toggler {
@@ -157,6 +129,31 @@
 
     .check-more-btn {
         color: #fff !important;
+    }
+
+    .section-image {
+        height: 500px;
+    }
+
+    .title {
+        font-size: 2em !important;
+    }
+
+    .text-adjectives {
+        margin-top: 60px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .check-more-btn {
+        margin-bottom: 100px !important;
+    }
+
+    #img-sec-section {
+        display: none !important;
+    }
+
+    .adjust-size {
+        max-width: 88% !important;
     }
 }
 
