@@ -29,7 +29,7 @@ We are running the program using LiveServer VSCode Extension. But you could run 
 
 ## Pull Requests and issues
 
-Feel free to contribute and share feedbacks on our website. Please file a request in our issue module or create a pull request. 
+Feel free to contribute and share feedbacks on our website. Please file a request in our issue module or create a pull request for `test` branch. 
 
 If you have an import issue, please give us our feedback. It is gonna be so important for us!
 
