@@ -136,3 +136,18 @@
     }
 }
 
+@media only screen and (max-width: 414px) {
+    .brand-text, .logo-position {
+        font-size: 1.3em !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        top: 2px !important;
+    }
+    .logo-position {
+        height: 60px !important;
+    }
+    .custom-navbar-toggler {
+        background-image: url("../resources/burger-menu.svg");
+        background-size: 1.3em;
+    }
+}
