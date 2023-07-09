@@ -158,13 +158,12 @@
     }
 
     .mission-title {
-        font-size: 1.2em !important;
+        font-size: 1.4em !important;
         margin-left: 0px !important;
     }
 
     .container-card-group {
-        margin-left: 0px !important;
-        margin-right: 20px !important;
+        margin: 0 20px !important;
     }
 
     #custom-second-section-container {

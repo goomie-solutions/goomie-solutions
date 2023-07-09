@@ -140,8 +140,7 @@
     }
 
     .text-adjectives {
-        margin-top: 60px !important;
-        margin-bottom: 40px !important;
+        margin: 60px 0 40px !important;
     }
 
     .check-more-btn {
@@ -152,8 +151,11 @@
         display: none !important;
     }
 
-    .adjust-size {
-        max-width: 88% !important;
+    .mission-title {
+        margin-left: 0px !important;
+    }
+    .container-card-group {
+        margin: 0 20px !important;
     }
 }
 
