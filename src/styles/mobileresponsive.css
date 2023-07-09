@@ -7,6 +7,7 @@
     #text-social-media {
         display: none !important;
     }
+
     .footer-list-items {
         margin-right: 20px !important;
     }
@@ -43,7 +44,7 @@
 }
 
 @media only screen and (max-width: 620.11px),
-       (min-width: 414.2px) and (max-width: 611px) {
+(min-width: 414.2px) and (max-width: 611px) {
 
     .brand-text {
         font-size: 50px;
@@ -57,7 +58,7 @@
     .custom-section-container {
         text-align: center !important;
     }
-    
+
     #resp-title-mobile {
         font-size: 2.6em !important;
     }
@@ -125,6 +126,7 @@
     .footer-page .brand-footer {
         font-size: 2.2em !important;
     }
+
     #line {
         margin-top: 20px !important;
     }
@@ -136,3 +138,39 @@
     }
 }
 
+@media only screen and (max-width: 414px) {
+
+    .brand-text,
+    .logo-position {
+        font-size: 1.3em !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        top: 2px !important;
+    }
+
+    .logo-position {
+        height: 60px !important;
+    }
+
+    .custom-navbar-toggler {
+        background-image: url("../resources/burger-menu.svg");
+        background-size: 1.3em;
+    }
+
+    .mission-title {
+        font-size: 1.2em !important;
+        margin-left: 0px !important;
+    }
+
+    .container-card-group {
+        margin-left: 0px !important;
+        margin-right: 20px !important;
+    }
+
+    #custom-second-section-container {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
