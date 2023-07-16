@@ -1,0 +1,44 @@
+:root {
+    --navbar-bg-color: #111;
+    --color-brand: #ff5722;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../resources/fonts/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: 'Helvetica-bold';
+    src: url(../resources/fonts/Helvetica-Bold.ttf);
+}
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Helvetica';
+}
+
+.mission-section {
+    min-height: 443.4px;
+    background-color: #1D1C1C;
+    max-width: 100%;
+}
+
+.mission-sec-title {
+    font-size: 53.5px !important;
+}
+
+.mission-sec-description {
+    font-size: 47px !important;
+}
+.brand-color {
+    color: var(--color-brand) !important;
+}
+
+.abs-pos {
+    position: relative !important;
+    bottom: 35px;
+    left: 170px;
+    
+}
