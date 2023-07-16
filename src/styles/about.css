@@ -42,3 +42,25 @@
     left: 170px;
     
 }
+
+.section-title-diff {
+    color: var(--color-brand) !important;
+    font-family: 'Helvetica-bold';
+}
+.card {
+    width: 25rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card:hover {
+    transition: 0.6s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
+
+.card-title {
+    color: var(--color-brand);
+    font-family: 'Helvetica-bold';
+    font-size: 1.6em !important;
+}
+
+.card-text {
+    text-align: justify;
+}
