@@ -19,6 +19,10 @@
     font-family: 'Helvetica';
 }
 
+section {
+    max-width: 100% !important;
+}
+
 .mission-section {
     min-height: 443.4px;
     background-color: #1D1C1C;
@@ -41,18 +45,19 @@
     position: relative !important;
     bottom: 35px;
     left: 170px;
-
 }
 
 .section-title-about {
     color: var(--color-brand) !important;
     font-family: 'Helvetica-bold';
     margin-top: 90px !important;
+    margin-right: 8% !important;
 }
 
 .card {
     width: 25rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: default !important;
 }
 
 .card:hover {
@@ -99,7 +104,6 @@
     width: 40% !important;
     text-align: justify;
     margin: 40px auto 120px !important;
-
 }
 
 
@@ -107,6 +111,12 @@
     .card-container-groups {
         display: inline-block !important;
     }
+
+    .section-title-about {
+        margin-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+
 
     .card {
         margin-bottom: 80px !important;
@@ -122,10 +132,14 @@
         margin: 40px 46px 120px !important;
     }
 
-}
-@media only screen and (max-width: 420px) {
+    .benefits-group {
+        width: 100% !important;
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
 
 }
+
 @media only screen and (max-width: 420px) {
 
     .mission-sec-title,
@@ -154,8 +168,39 @@
     .final-desc-benefits {
         margin: 20px auto 120px !important;
     }
+
     .title-each-benefit {
         text-align: left !important;
         font-size: 1.5rem !important;
     }
+}
+
+@media only screen and (max-width: 320px) {
+    .mission-sec-description {
+        font-size: 1.70em !important;
+        padding-bottom: 20px !important;
+    }
+
+    .section-title-about {
+        margin: 50px 0 !important;
+    }
+
+    .card-container-groups {
+        margin: 0 !important;
+    }
+
+    .card {
+        padding: 20px !important;
+        width: 85% !important;
+        margin: auto !important;
+        margin-bottom: 40px !important;
+    }
+
+    .section-title-about {
+        font-size: 1.4rem !important;
+    }
+    .title-each-benefit {
+        font-size: 1.4rem !important;
+    }
+
 }
