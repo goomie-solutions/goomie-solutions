@@ -71,6 +71,11 @@
     text-align: justify;
 }
 
+.container-benefits {
+    margin:auto !important;
+    width: 90% !important;
+}
+
 .title-each-benefit {
     font-family: 'Helvetica-bold';
     margin-bottom: 20px !important;
