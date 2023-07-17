@@ -44,10 +44,11 @@
 
 }
 
-.section-title-diff {
+.section-title-about {
     color: var(--color-brand) !important;
     font-family: 'Helvetica-bold';
     margin-right: 133px !important;
+    margin-top: 90px !important;
 }
 
 .card {
@@ -69,6 +70,31 @@
 .card-text {
     text-align: justify;
 }
+
+.title-each-benefit {
+    font-family: 'Helvetica-bold';
+    margin-bottom: 20px !important;
+    font-size: 1.8em !important;
+}
+
+.benefits-group {
+    max-width: 56% !important;
+    margin-top: 72px !important;
+}
+
+.description-benefits {
+    margin-bottom: 48px !important;
+    text-align: justify;
+}
+
+.final-desc-benefits {
+    width: 40% !important;
+    text-align: justify;
+    margin: auto !important;
+    margin-top: 40px !important;
+    margin-bottom: 120px !important;
+}
+
 
 @media only screen and (max-width: 1290px) {
     .card-container-groups {
