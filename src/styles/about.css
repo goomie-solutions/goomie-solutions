@@ -83,13 +83,17 @@
 }
 
 .benefits-group {
-    max-width: 56% !important;
-    margin-top: 72px !important;
+    margin-top: 62px !important;
+    width: 90% !important;
 }
 
-.description-benefits {
+.content-benefits {
     margin-bottom: 48px !important;
     text-align: justify;
+}
+
+.img-third-section-about {
+    height: 500px;
 }
 
 .final-desc-benefits {
